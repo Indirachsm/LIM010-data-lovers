@@ -40,6 +40,10 @@ Feedback:
 - Sustituir imagen "pokelover" por un logo.
 - Hacer botones de la segunda cara más pequeños.
 - Realizar una ventana modal cuadrada.
+- Prototipo en Figma
+![FIGMA1](https://user-images.githubusercontent.com/51206357/61764994-cd2a8800-ada0-11e9-9878-58283eb50eff.jpg)
+![FIGMA2](https://user-images.githubusercontent.com/51206357/61765268-fdbef180-ada1-11e9-87ca-b0f5b24c192f.jpg)
+![FIGMA3](https://user-images.githubusercontent.com/51206357/61765095-41fdc200-ada1-11e9-9641-aa05f57b1872.jpg)
 
 -Prototipo de alta fidelidad
 
