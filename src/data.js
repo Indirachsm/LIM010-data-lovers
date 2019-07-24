@@ -15,38 +15,7 @@ const azordena = (ordenar, desordenar) => {
   }
 };
 
-/*
-  nombrePokemones = [];
-  const ordenador = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'W', 'X', 'Y', 'Z'];
-  for (let i = 0; i < ordenador.length; i++) {
-    for (let j = 0; j < pokemones.length; j++) {
-      if (ordenador[i] === pokemones[j].name[0]) {
-        nombrePokemones.push(pokemones[j]);
-      };
-    }
-  } return nombrePokemones;
-};
-ORDENANDO LOS POKEMONES DE LA Z-A
-const zaordena = () => {
-  pokemonesnombre = [];
-  const desordenar = ['Z', 'Y', 'X', 'W', 'V', 'U', 'T', 'S', 'R', 'Q', 'P', 'O', 'N', 'M', 'L', 'K', 'J', 'I', 'H', 'G', 'F', 'E', 'D', 'C', 'B', 'A'];
-  for (let i = 0; i < desordenar.length; i++) {
-    for (let j = 0; j < pokemones.length; j++) {
-      if (desordenar[i] === pokemones[j].name[0]) {
-        pokemonesnombre.push(pokemones[j]);
-      };
-    }
-  } return pokemonesnombre;
-};*/
-/* FILTRANNDO LOS POKEMONES POR TIPOS
-El método filter () crea una matriz rellena con todos 
-los elementos de la matriz que pasan una prueba (proporcionada como una función).
-Nota: filter () no ejecuta la función para elementos de matriz sin valores.
-Nota: el filtro () no cambia la matriz original.
-indexOf () compara searchElement con elementos de la matriz
- utilizando una igualdad estricta (el mismo método utilizado por el operador === o triple-igual)
- NOTA RETURN(La sentencia return finaliza la ejecución de la función
- y especifica un valor para ser devuelto a quien llama a la función.) */
+/* FILTRANDO POR TIPOS */
 const poketypos = (pokemones, tiposp) => {
   return pokemones.filter((element) => {
     return element.type.indexOf(tiposp) > -1;
@@ -87,7 +56,6 @@ const huevos = (pokemones, condicion) => {
     return element.egg.indexOf(condicion) > -1;
   });
 };
-
 
 window.pokemon = {
   azordena: azordena,
