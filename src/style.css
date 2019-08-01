@@ -80,11 +80,8 @@ a{
 /* desde aqui mi cara2 */
 
 .cara2{
+    background: #021f35;
     margin: auto;
-    background-image: url(img/01.gif);
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
     text-align: center;        
 }
 .titulito{
@@ -96,7 +93,7 @@ a{
     align-items: center;
     display: table-column;
     font-size: 20px;
-    background: rgba(255, 255, 203, 0.85);
+    background: rgba(255, 255, 255, 0.85);
     border-radius: 5px;
     /* border: 8px; */
     height: 58px;
@@ -104,13 +101,13 @@ a{
     font-family: 'Open Sans', sans-serif;
     font-weight: bold;
     text-align: center;
-
+    color: #021f35;
 }
 .mostrar{
-    background: #ffe5858f;
+    background: #ffffff8f;
     width: 280px;
     height: 210px;
-    border: 2px solid #ffd170;
+    border: 2px solid #ffffff;
     font-family: 'Open Sans', sans-serif;
     font-weight: bold;
     border-radius: 15px;
@@ -153,14 +150,12 @@ img.sizeimg {
     padding: 21px;
 }
 .modal {
-    background-image: url(img/pokebolas.jpg);
+    background: #d9dee1;
     padding: 0;
     margin: 0;
     border-radius: 21px;
-    background-repeat: no-repeat;
-    background-size: 1199px;
-    width: 602px;
-    height: 573px;
+    width: 680px;
+    height: 618px;
     text-align: center;
     display: flex;
     align-items: center;
@@ -168,14 +163,13 @@ img.sizeimg {
     left: 412px;
     top: 81px;
     right: 0px;
-
   }
   .modalcontenido {
     margin: 124px;
     height: 523px;
   }
   .pokeke {
-    font-family: cursive;
+    text-align: center;
     font-weight: bold;
     font-size: 20px;
     width: 428px;
@@ -193,10 +187,7 @@ img.sizeimg {
     margin: -10px;
 }
 .imagenpoke{
-    width: 212px;
-    justify-content: center;
-    align-items: center;
-}
+    width: 230px;}
 .logomodal{
     display: flex;
     justify-content: flex-start;
@@ -204,7 +195,7 @@ img.sizeimg {
     height: 98px;
 }
 .cerrar {
-    color: white;
+    color: #021f35;
     float: right;
     font-size: 84px;
     cursor: pointer;
@@ -275,7 +266,7 @@ img.sizeimg {
     }
 
 .modal {
-    background-image: url(img/pokebolas.jpg);
+    background: green;
     padding: 0;
     margin: 0px;
     border-radius: 21px;
@@ -335,7 +326,9 @@ img.sizeimg {
     display: flex;
     flex-direction: column;
     text-align: center;
-    background: #4b8d39;
+    background: #021f35;
     font-size: 34px;
     font-family: bold;
+    color:  white;
+    font-family: 'Open Sans', sans-serif;
 }

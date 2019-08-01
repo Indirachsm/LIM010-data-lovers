@@ -1,4 +1,4 @@
-/* DECLARANDO LOS BOTONES DEL LOGIN Y DARLE FUNCIONABILIDAD */
+/* DECLRANDO LOS BOTONES DEL LOGIN Y DAR(LE FUNCIONABILIDAD */
 const loginbox = document.getElementById('loginbox');
 const login = document.getElementById('login');
 const password = document.getElementById('password');
@@ -12,12 +12,14 @@ buttonUno.addEventListener('click', () => {
   if (login.value && password.value === 'LABORATORIA') {
     loginbox.classList.add('hide');
     interfaz2.classList.replace('hide', 'show');
-  } else if (contador === 2) {
-    error.innerHTML = 'intentaste 3 veces ya no puedes entrar a la pagina';
-  } else {
-    contador++;
-    error.innerHTML = 'contraseña incorrecta';
   }
+  // else if (contador === 2) {
+  //   error.innerHTML = 'intentaste 3 veces ya no puedes entrar a la pagina';
+  // }
+  // else {
+  //   contador++;
+  //   error.innerHTML = 'contraseña incorrecta';
+  // }
 });
 /* LLAMANDO A MI DATA POKEMON DESDE DATA JS QUE APARECE EN LA SEGUNDA INTERFAZ */
 const pokemones = POKEMON.pokemon;
